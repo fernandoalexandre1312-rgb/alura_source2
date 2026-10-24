@@ -1,0 +1,1 @@
+"use strict";$(".alert-remove-icon").on("click",function(){var a=$(this).parents(".companyBillboard__alert");a.hide();var t=a.data("billboard-id");window.localStorage.setItem("billboard-".concat(t),"true")}),$(".companyBillboard__alert").each(function(){var a=$(this).data("billboard-id");"true"!=window.localStorage.getItem("billboard-".concat(a))&&$(this).show()});
