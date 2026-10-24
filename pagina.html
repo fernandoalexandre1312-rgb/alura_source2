@@ -1,0 +1,1572 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="pt-BR" data-product="alura" class="
+theme-dark
+">
+
+<head><script>(function(w,i,g){w[g]=w[g]||[];if(typeof w[g].push=='function')w[g].push(i)})
+(window,'GTM-NTLWWLR','google_tags_first_party');</script><script>(function(w,d,s,l){w[l]=w[l]||[];(function(){w[l].push(arguments);})('set', 'developer_id.dYzg1YT', true);
+		w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+		j=d.createElement(s);j.async=true;j.src='/edzq/';
+		f.parentNode.insertBefore(j,f);
+		})(window,document,'script','dataLayer');</script>
+	
+<script>
+(function () {
+  function normalizeTheme(theme) {
+    return theme === "light" ? "light" : "dark";
+  }
+
+  const match = document.cookie.match(/(?:^|; )user-theme=([^;]*)/);
+  let theme = "dark";
+
+  if (match) {
+    try {
+      theme = normalizeTheme(decodeURIComponent(match[1]));
+    } catch (error) {
+      theme = "dark";
+    }
+  }
+
+  document.documentElement.classList.add("theme-" + theme);
+})();
+</script>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	
+
+	
+		
+
+
+
+
+
+
+    
+        
+            <!-- Google Tag Manager -->
+            <script>
+                ;(function(w, d, s, l, i) {
+                    w[l] = w[l] || [];
+                    w[l].push({
+                        'gtm.start': new Date().getTime(),
+                        event: 'gtm.js'
+                    });
+                    var f = d.getElementsByTagName(s)[0],
+                        j = d.createElement(s);
+                    j.async = true;
+                    j.src = "https://stape.alura.com.br/aqukryqvi.js?" + i;
+                    f.parentNode.insertBefore(j, f);
+                })(window, document, 'script', 'dataLayerAlura', '9e=ABJMPiYmWD89OiYuPjlTB1REX0hUB0gVCAIQNRMSEAMoGgQLE00RH1QXHQwAClsSBhtfGwA%3D');
+            </script>
+            <!-- End Google Tag Manager -->
+        
+        
+    
+
+
+    <script>
+        let dataLayerAlura = window.dataLayerAlura || [];
+        dataLayerAlura.push({
+            'event': 'virtual_page_view',
+            'page_category': 'Dashboard',
+            
+            
+            
+                
+                    
+                        
+                        'user_id':'1151452',
+                        'email':'a7479ad0d4cb67d09790135091713d1dfd5740b574c36d3ac98c715d6971b720',
+                        'type': 'B2B'
+                    
+                    
+                
+            
+        });
+    </script>
+
+
+
+
+
+
+
+	
+
+	
+
+
+
+
+    <script type="text/javascript">
+        (function(c, l, a, r, i, t, y) {
+            c[a] = c[a] || function() {
+                (c[a].q = c[a].q || []).push(arguments);
+            };
+            t = l.createElement(r);
+            t.async = 1;
+            t.src = "https://www.clarity.ms/tag/" + i;
+            y = l.getElementsByTagName(r)[0];
+            y.parentNode.insertBefore(t, y);
+        })(window, document, "clarity", "script", "j5yix797ro");
+    </script>
+
+
+
+	
+
+
+
+
+
+
+
+	
+		
+		
+			
+			<title>Dashboard | Alura - Cursos online de tecnologia</title>
+		
+	
+
+	<link rel="shortcut icon" href="/assets/images/alura/favicon.ico">
+
+	
+
+	<script>
+		window.getSpriteSvgPath = window.getSpriteSvgPath || function() {
+			return '/assets/icons/sprite.svg?v=v2' || '/assets/icons/sprite.svg';
+		};
+	</script>
+
+	<link href='//fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic|Open+Sans:400,300,600,700,800|Source+Serif+Pro' rel='stylesheet'>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	
+	
+
+	
+
+	<link rel="stylesheet" href="/assets/css/lib/prettify.w.e207c5226b.css">
+	<link rel="stylesheet" href="/assets/external-libs/highlightjs/github.w.7eada5b91a.css">
+
+	<link rel="stylesheet" href="/assets/css/base.w.23243363e5.css">
+
+	<link rel="stylesheet" href="/assets/css/block/container.w.d658d37280.css">
+	<link rel="stylesheet" href="/assets/css/block/header.w.9eb08eb255.css">
+	<link rel="stylesheet" href="/assets/css/block/headerDesktop.w.1162c6081f.css">
+	<link rel="stylesheet" href="/assets/css/block/headerNews.w.d37ac86551.css">
+	<link rel="stylesheet" href="/assets/css/block/headerList.w.56eb15ad6c.css">
+	<link rel="stylesheet" href="/assets/css/block/headerUnlogged.w.a6e7896d03.css">
+	<link rel="stylesheet" href="/assets/css/block/footer.w.5b8be05455.css">
+	
+	<link rel="stylesheet" href="/assets/css/block/checkbox.w.c882ae44e8.css">
+	<link rel="stylesheet" href="/assets/css/block/paginator.w.a04b77e2de.css">
+	<link rel="stylesheet" href="/assets/css/block/profileAvatar.w.22b32f67f6.css">
+	<link rel="stylesheet" href="/assets/css/block/contentBox.w.fa6a42cbe6.css">
+	<link rel="stylesheet" href="/assets/css/block/contentBoxWithBanner.w.06c984ef85.css">
+	<link rel="stylesheet" href="/assets/css/block/courseLogo.w.6aa18fa562.css">
+	<link rel="stylesheet" href="/assets/css/block/courseSectionList.w.0c2acf9d69.css">
+	<link rel="stylesheet" href="/assets/css/block/button.w.947ac44d78.css">
+	<link rel="stylesheet" href="/assets/css/block/seeMoreButton.w.e8d7033de0.css">
+	<link rel="stylesheet" href="/assets/css/block/progressBar.w.be54084e86.css">
+	<link rel="stylesheet" href="/assets/css/block/progressBall.w.104c194da4.css">
+	<link rel="stylesheet" href="/assets/css/block/showOpenAnswerExercise.w.d6a6de7640.css">
+	<link rel="stylesheet" href="/assets/css/block/showMultipleChoiceAnswerExercise.w.6004ed86e5.css">
+	<link rel="stylesheet" href="/assets/css/block/card.w.de50956ae6.css">
+	<link rel="stylesheet" href="/assets/css/block/lightCard.w.c4c7c48675.css">
+	<link rel="stylesheet" href="/assets/css/block/cardList.w.040465dbaf.css">
+	<link rel="stylesheet" href="/assets/css/block/courseCard.w.84459acf29.css">
+	<link rel="stylesheet" href="/assets/css/block/learningGuidePercentageCard.w.44eaf48fdc.css">
+	<link rel="stylesheet" href="/assets/css/block/courseCardList.w.c3624e544b.css">
+	<link rel="stylesheet" href="/assets/css/block/learningGuideCardList.w.c671911647.css">
+	<link rel="stylesheet" href="/assets/css/block/courseCardBig.w.260de6f1b1.css">
+	<link rel="stylesheet" href="/assets/css/block/courseRateCard.w.d1644df48e.css">
+	<link rel="stylesheet" href="/assets/css/block/cardCategory.w.cb94e06f0f.css">
+	<link rel="stylesheet" href="/assets/css/block/alert.w.94f2c7586d.css">
+	<link rel="stylesheet" href="/assets/css/block/careerHeader.w.2e3c1b2d51.css">
+	<link rel="stylesheet" href="/assets/css/block/careerCourses.w.304e1b4108.css">
+	<link rel="stylesheet" href="/assets/css/block/learningStepContentList.w.6deb0599b1.css">
+	<link rel="stylesheet" href="/assets/css/block/levelMenu.w.1eedc4efd0.css">
+	<link rel="stylesheet" href="/assets/css/block/pointsGraphic.w.96b3a86679.css">
+	<link rel="stylesheet" href="/assets/css/block/forumDiscussions.w.37260486bc.css">
+	<link rel="stylesheet" href="/assets/css/block/forumList.w.c76ffc3da2.css">
+	<link rel="stylesheet" href="/assets/css/block/sectionContent.w.5ece306ddd.css">
+	<link rel="stylesheet" href="/assets/css/block/sectionVideo.w.f85bc925cd.css">
+	<link rel="stylesheet" href="/assets/css/block/sectionMenu.w.3be73ce57e.css">
+	<link rel="stylesheet" href="/assets/css/block/elasticMedia.w.cefb09c009.css">
+	<link rel="stylesheet" href="/assets/css/block/formattedText.w.e2ea9ed68a.css">
+	<link rel="stylesheet" href="/assets/css/block/exerciseContent.w.5b83473db3.css">
+	<link rel="stylesheet" href="/assets/css/block/starRating.w.3725271609.css">
+	<link rel="stylesheet" href="/assets/css/block/markdownEditor.w.73fd00c430.css">
+	<link rel="stylesheet" href="/assets/css/block/styledSelect.w.26d741c633.css">
+	<link rel="stylesheet" href="/assets/css/block/assessment.w.9fab016a4b.css">
+	<link rel="stylesheet" href="/assets/css/block/audioPlayer.w.3d600af921.css">
+	<link rel="stylesheet" href="/assets/css/block/search.w.d540b8e7d8.css">
+	<link rel="stylesheet" href="/assets/css/search/querySuggestion.w.7e197dc585.css">
+	<link rel="stylesheet" href="/assets/css/block/banner.w.0f326da170.css">
+	<link rel="stylesheet" href="/assets/css/block/bannerDetails.w.c48e9f28d2.css">
+	<link rel="stylesheet" href="/assets/css/block/vote.w.636537db62.css">
+	<link rel="stylesheet" href="/assets/css/block/form.w.c558fcd46c.css">
+	<link rel="stylesheet" href="/assets/css/block/modal.w.527856d2a0.css">
+	<link rel="stylesheet" href="/assets/css/block/learningGuideProgresses.w.a04efa53f7.css">
+	<link rel="stylesheet" href="/assets/css/block/learningGuideCard.w.0386646672.css">
+	<link rel="stylesheet" href="/assets/css/block/progressTracker.w.58283a528d.css">
+	<link rel="stylesheet" href="/assets/css/block/courseCard.w.84459acf29.css">
+	<link rel="stylesheet" href="/assets/css/block/companyLayoutCustomization.w.a455c4186d.css">
+	<link rel="stylesheet" href="/assets/css/block/breadcrumb.w.8c6f133dcc.css">
+	<link rel="stylesheet" href="/assets/css/pages/discussion/topic-breadCrumb.w.38f213fed2.css">
+	<link rel="stylesheet" href="/assets/css/unloggedHome/licenseAgreement.w.a6481918f4.css">
+	<link rel="stylesheet" href="/assets/css/unloggedHome/alertLicenseCard.w.6e92b4bce1.css">
+	<link rel="stylesheet" href="/assets/css/learningGuide/guideCard.w.c02acd0fab.css">
+
+	
+
+    <!-- OldDashboard -->
+    <link rel="stylesheet" href="/assets/css/pages/home/dashboard.w.aed1af2adb.css">
+    <link rel="stylesheet" href="/assets/css/block/headline.w.4efd0e35a1.css">
+
+    <!-- NewDashboard -->
+    <link rel="stylesheet" href="/assets/css/pages/home/newDashboard.w.213b67dd5b.css">
+    <link rel="stylesheet" href="/assets/css/pages/home/degreesInProgress.w.b1dfd9a05e.css">
+    <link rel="stylesheet" href="/assets/css/pages/home/b2bStudyPlans.w.bcb235809a.css">
+    <link rel="stylesheet" href="/assets/css/start/dashboard/noAccess.w.3d52087e4e.css">
+    <link rel="stylesheet" href="/assets/css/start/dashboard/dashboard.w.08406dc871.css">
+    <link rel="stylesheet" href="/assets/css/company/companyBillboard.w.db48f3ab0f.css">
+    <link rel="stylesheet" href="/assets/css/dashboard/emptyState.w.269381d991.css">
+
+    <link rel="stylesheet" href="/assets/css/start/dashboard/startModal.w.8c69ac5ef0.css">
+    <link rel="stylesheet" href="/assets/css/start/dashboard/startBoard.w.70347431c1.css">
+    <link rel="stylesheet" href="/assets/css/dynamicBanner/dynamicBanner.w.9b7275c5ed.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+
+	
+
+	
+
+	<link rel="stylesheet" href="/assets/css/classPage/dark-mode.w.8e83ff4ccc.css">
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+
+	
+		<link rel="stylesheet" href="/assets/css/block/companyLayoutCustomization.w.a455c4186d.css">
+
+		
+			<link rel="stylesheet" href="/assets/css/block/companyLogoCustomization.w.9862584f4c.css">
+		
+
+		
+
+		
+	
+
+	
+		<link rel="stylesheet" href="/assets/css/start/footer.w.ec12ea1963.css">
+		<link rel="stylesheet" href="/assets/css/start/header/headerDesktop.w.573bbe0b36.css">
+	
+
+	<!-- Remove cookie banner from hubspot -->
+	<style>
+
+		div#hs-eu-cookie-confirmation {
+			display: none;
+		}
+	</style>
+
+	
+		<link rel="stylesheet" href="/assets/css/assessment/assessmentDashboardSection.w.121a547916.css">
+		<link rel="stylesheet" href="/assets/css/assessment/selfAssessment/selfAssessmentDashboardSection.w.5fa6c3ff1f.css">
+	
+
+	
+
+</head>
+
+<body class=" ">
+<span data-return-to-top="Voltar ao topo" class="back-to-top-label" style="display:none" aria-hidden="true"></span>
+<script src="/assets/js/shared/theme.w.49fec8f094.js"></script>
+<script src="/assets/js/avatarOnError.w.25025101d7.js"></script>
+
+
+	
+
+
+
+    
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+            <iframe src="https://stape.alura.com.br/ns.html?id=GTM-NTLWWLR"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+    
+    
+
+
+<script src="/assets/js/courseIconFallback.w.115a8ed257.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
+	
+
+	
+		
+			
+
+
+
+
+
+
+
+
+
+<header class="header headerDesktop" style="border-top: 4px solid #2A7AE4">
+    <div class="container">
+        <div class="header-logo--wrapper header-logo--company">
+            <a href="/dashboard">
+                <img class="header-logo header-logo-alurastart" src="/assets/images/logos/logo-start-by-alura.png"
+                     alt="Logo Start by Alura">
+            </a>
+            
+
+
+
+
+
+
+    
+    
+        <span class="company-logo--vertical-separator"></span>
+    
+    <div class="company-logo__wrapper">
+        <div class="company-logo">
+            <img class="company-logo__img" src="https://cdn2.gnarususercontent.com.br/1/7735069/03232e46-cf0a-4407-b19f-abde55f9d64b.png" alt="Logo da empresa - [2022] Alura Start - SEED Paraná (Desativada)">
+        </div>
+    </div>
+    
+
+
+        </div>
+
+        
+
+        
+            <nav class="headerDesktop-content-menu" role="navigation" aria-label="menu principal">
+                <div class="content-menu-section content-menu-section-contents">
+                    <a role="button" href="/dashboard" tabindex="0" class="content-menu-title content-menu-button exclude-icon" aria-expanded="false" aria-controls="dashboard">
+                        Dashboard
+                    </a>
+                </div>
+
+                <div class="content-menu-section content-menu-section-contents">
+                    <a role="button" href="/learning-guide/company" tabindex="0" class="content-menu-title content-menu-button exclude-icon" aria-expanded="false" aria-controls="studyPlans">
+                        Trilhas de estudo
+                    </a>
+                </div>
+
+                <div class="content-menu-section content-menu-section-contents">
+                    <a role="button" href="/start/projects" tabindex="0" class="content-menu-title content-menu-button exclude-icon" aria-expanded="false" aria-controls="projects">
+                        Meus Projetos
+                    </a>
+                </div>
+
+                <div class="content-menu-section content-menu-section-profile ">
+                    <a role="button" tabindex="0" aria-label="minha conta" class="content-menu-button menu-button-desktop profile-info-name" aria-expanded="false" aria-controls="profileList">
+                        <img src="https://www.gravatar.com/avatar/6728aa64099c0168a248dbcc40761234.png?r=PG&amp;size=60x60&amp;date=2026-10-24&amp;d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_e.png" alt="Foto de ENZO ALEXANDRE MORAES DA SILVA" class='headline-profile-avatar headline-profile-avatar'>
+                        <span class="profile-info-name-text-wrapper"><span class="screenReader-only">perfil de</span>Enzo</span>
+                    </a>
+                    
+
+
+
+
+
+<nav id="profileList" class="header-nav header-nav-profile bootcamp-background-dark-section" aria-hidden="true" tabindex="-1">
+    
+
+
+
+
+
+
+    
+    
+    <div class="company-logo__wrapper">
+        <div class="company-logo">
+            <img class="company-logo__img" src="https://cdn2.gnarususercontent.com.br/1/7735069/03232e46-cf0a-4407-b19f-abde55f9d64b.png" alt="Logo da empresa - [2022] Alura Start - SEED Paraná (Desativada)">
+        </div>
+    </div>
+    
+        <span class="company-logo--horizontal-separator"></span>
+    
+
+
+
+    <a class="header-nav-link header-nav-link--profile bootcamp-text-color" href="/user/enzo-moraes-silva" tabindex="-1">
+        Perfil & Certificados
+    </a>
+
+    <a class="header-nav-link header-nav-link--profile-edit bootcamp-text-color" href="/my_profile" tabindex="-1">
+        Editar perfil
+    </a>
+
+    <a class="header-nav-link header-nav-link--profile-terms bootcamp-text-color" href="/licenseAgreement" tabindex="-1">
+        Termos de uso
+    </a>
+
+    
+        
+        
+            
+        
+    
+
+    <a class="header-nav-link header-nav-link--logout bootcamp-text-color" href="/start/logout" tabindex="-1">
+        Sair
+    </a>
+
+    <span class="header-nav-arrow"></span>
+</nav>
+
+                </div>
+            </nav>
+        
+    </div>
+</header>
+
+			
+
+
+
+
+
+
+
+
+
+<div class="natural-header" style="border-top: 4px solid #2A7AE4;">
+    
+        <button class="header-hamburguinho" aria-controls="headerMobile" aria-expanded="false"></button>
+    
+    <a href="/dashboard">
+        <img class="header-logo header-logo-alurastart" src="/assets/images/logos/logo-start-by-alura.png"
+             alt="Logo Start by Alura">
+    </a>
+    
+</div>
+
+<div class="natural-header natural-header--company">
+    
+
+
+
+
+
+
+    
+        <span class="company-logo--horizontal-separator company-logo--horizontal-separator-mobile"></span>
+    
+    
+    <div class="company-logo__wrapper">
+        <div class="company-logo">
+            <img class="company-logo__img" src="https://cdn2.gnarususercontent.com.br/1/7735069/03232e46-cf0a-4407-b19f-abde55f9d64b.png" alt="Logo da empresa - [2022] Alura Start - SEED Paraná (Desativada)">
+        </div>
+    </div>
+    
+
+
+</div>
+
+
+    <header id="headerMobile" class="header headerMobile headerMobile--collapsed" style="border-top: 4px solid #2A7AE4;" aria-hidden="true">
+
+        <div class="headerMobile-collapsed-top">
+            <button class="header-hamburguinho header-hamburguinho--branco" aria-controls="headerMobile" aria-expanded="true"></button>
+        </div>
+
+        <div class="headerMobile-content">
+
+            <section class="headerMobile-content-headline">
+                <div class='content-headline-profile '>
+                    <img src="https://www.gravatar.com/avatar/6728aa64099c0168a248dbcc40761234.png?r=PG&amp;size=60x60&amp;date=2026-10-24&amp;d=https%3A%2F%2Fcursos.alura.com.br%2Fassets%2Fimages%2Fforum%2Favatar_e.png" alt="Foto de ENZO ALEXANDRE MORAES DA SILVA" class='headline-profile-avatar'>
+                    <span class="headline-profile-info">
+                <p class="profile-info-name">Enzo</p>
+            </span>
+                </div>
+            </section>
+
+            <menu class="header-content-menu" role="navigation">
+                <section class="content-menu-section">
+                    <h2 class="content-menu-title" tabindex="0">
+                        <a href="/dashboard" style="text-decoration: none;" tabindex="0" class="content-menu-button menu-button-mobile exclude-icon" aria-expanded="false" aria-controls="dashboard">
+                            Dashboard
+                        </a>
+                    </h2>
+                </section>
+
+                <section class="content-menu-section">
+                    <h2 class="content-menu-title" tabindex="0">
+                        <a href="/learning-guide/company" style="text-decoration: none;" tabindex="0" class="content-menu-button menu-button-mobile exclude-icon" aria-expanded="false" aria-controls="dashboard">
+                            Trilhas de estudo
+                        </a>
+                    </h2>
+                </section>
+
+                <section class="content-menu-section">
+                    <h2 class="content-menu-title" tabindex="0">
+                        <a href="/start/projects" style="text-decoration: none;" tabindex="0" class="content-menu-button menu-button-mobile exclude-icon" aria-expanded="false" aria-controls="dashboard">
+                            Meus Projetos
+                        </a>
+                    </h2>
+                </section>
+
+                <section class="content-menu-section">
+                    <h2 class="content-menu-title" tabindex="0">
+                        <a class="content-menu-button menu-button-mobile">
+                            Meu Perfil
+                        </a>
+                    </h2>
+                    
+
+
+
+
+
+<nav id="profileList" class="header-nav header-nav-profile bootcamp-background-dark-section" aria-hidden="true" tabindex="-1">
+    
+
+
+
+
+
+
+    
+    
+    <div class="company-logo__wrapper">
+        <div class="company-logo">
+            <img class="company-logo__img" src="https://cdn2.gnarususercontent.com.br/1/7735069/03232e46-cf0a-4407-b19f-abde55f9d64b.png" alt="Logo da empresa - [2022] Alura Start - SEED Paraná (Desativada)">
+        </div>
+    </div>
+    
+        <span class="company-logo--horizontal-separator"></span>
+    
+
+
+
+    <a class="header-nav-link header-nav-link--profile bootcamp-text-color" href="/user/enzo-moraes-silva" tabindex="-1">
+        Perfil & Certificados
+    </a>
+
+    <a class="header-nav-link header-nav-link--profile-edit bootcamp-text-color" href="/my_profile" tabindex="-1">
+        Editar perfil
+    </a>
+
+    <a class="header-nav-link header-nav-link--profile-terms bootcamp-text-color" href="/licenseAgreement" tabindex="-1">
+        Termos de uso
+    </a>
+
+    
+        
+        
+            
+        
+    
+
+    <a class="header-nav-link header-nav-link--logout bootcamp-text-color" href="/start/logout" tabindex="-1">
+        Sair
+    </a>
+
+    <span class="header-nav-arrow"></span>
+</nav>
+
+                </section>
+
+            </menu>
+        </div>
+    </header>
+
+
+
+		
+
+		
+
+		
+
+		
+
+		
+
+		
+
+		
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+			<section class="banner bootcamp-banner-background-theme school-banner-background-theme" id="banner-section">
+				<div class="container">
+					
+						
+						
+							<h1 class="banner-title">
+								
+									
+										<a href="/dashboard" class="banner-title-link">
+												Dashboard
+										</a>
+									
+									
+								
+							</h1>
+						
+					
+					
+				</div>
+			</section>
+			<div class="banner-wrapper">
+				
+				
+
+
+
+
+			</div>
+		
+	
+
+
+
+
+<main class="dashboard">
+
+    
+
+    
+        
+        
+            
+            <div class="event-banner-wrapper">
+                
+            </div>
+
+            
+            
+
+
+
+
+
+    
+
+
+            
+
+            
+            <div class="container dashboard-row">
+                
+                    
+
+
+
+
+
+
+
+
+<section class="in-progress__courses">
+    <div class="container">
+        
+        
+
+
+
+
+<h2 class="headline">Minhas unidades em andamento</h2>
+
+        <div class="in-progress__cards">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="big-card in-progress__big-card">
+    <div class="big-card__progress ">
+        <div class="big-card__bar" aria-hidden="true" style="background-image: linear-gradient(to right, #7ee195 68%, transparent 68%)"></div>
+        
+        <span class="big-card__number" aria-label="Progresso do curso">68%</span>
+    </div>
+
+    <div class="big-card__content">
+        <img class="big-card__icon" aria-hidden="true"
+             src="https://www.alura.com.br/assets/api/cursos/string-python-extraindo-informacoes-url.svg">
+        <div class="big-card__title">
+            <span class="big-card__label">Último em andamento</span>
+            <span class="big-card__name">String em Python: extraindo informações de uma URL</span>
+        </div>
+    </div>
+
+    
+        <div class="big-card__current">
+            <span class="big-card__content__bold">Aula atual:</span> Métodos especiais
+                - 17min
+        </div>
+    
+
+    
+
+    <div class="big-card__buttons">
+        <a class="big-card__button" href="/course/string-python-extraindo-informacoes-url/continue">
+            
+            
+            Continuar unidade
+        </a>
+
+        
+    </div>
+</div>
+        </div>
+    </div>
+</section>
+                
+                
+
+
+
+
+
+
+
+
+
+<section class="in-progress__courses">
+  <div class="container featured-courses">
+      <div class="in-progress__cards">
+        
+            
+
+
+
+
+<div class="degreesInProgress__timeline__step">
+    <a href="/course/git-github-repositorio-commit-versoes" class="newCourseCardSmall__course-wrapper" target="_blank">
+        <div class="newCourseCardSmall__course" style="border-left: 5px solid #4d739c">
+            <div class="newCourseCardSmall__course__info">
+                <img src="https://www.alura.com.br/assets/api/cursos/git-github-repositorio-commit-versoes.svg" class="degreesInProgress__timeline__icon">
+                <div class="newCourseCardSmall__course__type__wrapper">
+                    <div class="newCourseCardSmall__course__type">
+                        Unidade
+                    </div>
+                    <div class="newCourseCardSmall__course__title">
+                        Git e GitHub: repositório, commit e versões
+                    </div>
+                </div>
+            </div>
+            <div class="newCourseCardSmall__course__progress">
+                <div class="newCourseCardSmall__course__wholePercentage">
+                    <div class="newCourseCardSmall__course__actualProgress"
+                         style="width:0.0%;">
+                    </div>
+                </div>
+                <div class="newCourseCardSmall__course__percentageInfo">
+                    0%
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+        
+            
+
+
+
+
+<div class="degreesInProgress__timeline__step">
+    <a href="/course/scratch-programando-jogo-2d" class="newCourseCardSmall__course-wrapper" target="_blank">
+        <div class="newCourseCardSmall__course" style="border-left: 5px solid #4d739c">
+            <div class="newCourseCardSmall__course__info">
+                <img src="https://www.alura.com.br/assets/api/cursos/scratch-programando-jogo-2d.svg" class="degreesInProgress__timeline__icon">
+                <div class="newCourseCardSmall__course__type__wrapper">
+                    <div class="newCourseCardSmall__course__type">
+                        Unidade
+                    </div>
+                    <div class="newCourseCardSmall__course__title">
+                        Scratch: Programando seu jogo 2d Parte 1
+                    </div>
+                </div>
+            </div>
+            <div class="newCourseCardSmall__course__progress">
+                <div class="newCourseCardSmall__course__wholePercentage">
+                    <div class="newCourseCardSmall__course__actualProgress"
+                         style="width:26.0%;">
+                    </div>
+                </div>
+                <div class="newCourseCardSmall__course__percentageInfo">
+                    26%
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+        
+            
+
+
+
+
+<div class="degreesInProgress__timeline__step">
+    <a href="/course/scratch-seu-jogo-com-fisica-e-gravidade" class="newCourseCardSmall__course-wrapper" target="_blank">
+        <div class="newCourseCardSmall__course" style="border-left: 5px solid #4d739c">
+            <div class="newCourseCardSmall__course__info">
+                <img src="https://www.alura.com.br/assets/api/cursos/scratch-seu-jogo-com-fisica-e-gravidade.svg" class="degreesInProgress__timeline__icon">
+                <div class="newCourseCardSmall__course__type__wrapper">
+                    <div class="newCourseCardSmall__course__type">
+                        Unidade
+                    </div>
+                    <div class="newCourseCardSmall__course__title">
+                        Scratch: seu jogo com física e gravidade
+                    </div>
+                </div>
+            </div>
+            <div class="newCourseCardSmall__course__progress">
+                <div class="newCourseCardSmall__course__wholePercentage">
+                    <div class="newCourseCardSmall__course__actualProgress"
+                         style="width:71.0%;">
+                    </div>
+                </div>
+                <div class="newCourseCardSmall__course__percentageInfo">
+                    71%
+                </div>
+            </div>
+        </div>
+    </a>
+</div>
+        
+
+        
+    </div>
+  </div>
+</section>
+            </div>
+
+            
+                <div class="start-assessment__wrapper">
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <section class="self-assessment-cards">
+            <div class="container self-assessment-cards__container">
+               
+                   
+
+
+
+
+<h2 class="headline">Avaliações</h2>
+                
+                
+                    
+                    
+                        <div class="empty-message-wrapper">
+                            <p class="empty-message__title assessment-empty-state__message">Suas <b>Avaliações</b> ficarão aqui!</p>
+                        </div>
+                    
+                
+                <a class="see-more-assessments-link" href="/assessment/assessment-list">Ver todas as avaliações</a>
+            </div>
+        </section>
+
+
+                </div>
+            
+
+            <div class="container b2bStudyPlans">
+                
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="guide-progresses guide-progresses--company-dashboard">
+        <div class="container guide-progresses__container">
+            
+
+
+
+
+<h2 class="headline">Trilhas de estudo pensadas para você</h2>
+            <p class="guide-progresses__subtitle">Acesse <strong>Trilhas</strong> criadas para você, além de conteúdos selecionados para expandir seu conhecimento.</p>
+
+            <ul class="guide-progresses__list">
+                
+                    
+
+
+
+
+
+
+
+
+
+
+<li class="guide-card guide-card__wrapper__progress guide-card--company-suggestion guide-card--kind-plano-de-estudo guide-progresses__guide-card">
+    <a class="guide-card__link study-plan-card__link guide-card-container" href="/corp/ept-ds-3-serie-computacao-grafica-181919-p1047981" style="border-left: 5px solid #2087ED;">
+        <input type="hidden" id="index" name="index" value="0">
+        <div class="guide-card__text guide-card__text__progress guide-card--study-plan">
+            <span class="guide-card__kind">
+                Trilha de estudo
+            </span>
+
+            <span class="guide-card__name">EPT DS 3ª Série | Computação Gráfica</span>
+
+        </div>
+        <div class="guide-card__progress">
+            <div class="guide-card__description">
+                
+                        <span class="guide-card__fraction">
+                            14/14
+                        </span>
+                    <span class="guide-card__label">unidades finalizadas</span>
+                
+
+                
+            </div>
+        </div>
+    </a>
+</li>
+                
+                    
+
+
+
+
+
+
+
+
+
+
+<li class="guide-card guide-card__wrapper__progress guide-card--company-suggestion guide-card--kind-plano-de-estudo guide-progresses__guide-card">
+    <a class="guide-card__link study-plan-card__link guide-card-container" href="/corp/ept-ds-3-serie-ciencias-de-dados-181917-p1047974" style="border-left: 5px solid #2087ED;">
+        <input type="hidden" id="index" name="index" value="1">
+        <div class="guide-card__text guide-card__text__progress guide-card--study-plan">
+            <span class="guide-card__kind">
+                Trilha de estudo
+            </span>
+
+            <span class="guide-card__name">EPT DS 3ª Série | Ciências de Dados</span>
+
+        </div>
+        <div class="guide-card__progress">
+            <div class="guide-card__description">
+                
+                        <span class="guide-card__fraction">
+                            0/11
+                        </span>
+                    <span class="guide-card__label">unidades finalizadas</span>
+                
+
+                
+            </div>
+        </div>
+    </a>
+</li>
+                
+                    
+
+
+
+
+
+
+
+
+
+
+<li class="guide-card guide-card__wrapper__progress guide-card--company-suggestion guide-card--kind-plano-de-estudo guide-progresses__guide-card">
+    <a class="guide-card__link study-plan-card__link guide-card-container" href="/corp/ept-ds-3-serie-programacao-no-desenvolvimento-de-sistemas-181915-p1047969" style="border-left: 5px solid #2087ED;">
+        <input type="hidden" id="index" name="index" value="2">
+        <div class="guide-card__text guide-card__text__progress guide-card--study-plan">
+            <span class="guide-card__kind">
+                Trilha de estudo
+            </span>
+
+            <span class="guide-card__name">EPT DS 3ª Série | Programação no Desenvolvimento de Sistemas</span>
+
+        </div>
+        <div class="guide-card__progress">
+            <div class="guide-card__description">
+                
+                        <span class="guide-card__fraction">
+                            4/21
+                        </span>
+                    <span class="guide-card__label">unidades finalizadas</span>
+                
+
+                
+            </div>
+        </div>
+    </a>
+</li>
+                
+                    
+
+
+
+
+
+
+
+
+
+
+<li class="guide-card guide-card__wrapper__progress guide-card--company-suggestion guide-card--kind-plano-de-estudo guide-progresses__guide-card">
+    <a class="guide-card__link study-plan-card__link guide-card-container" href="/corp/ept-ds-3-serie-programacao-mobile-181912-p1047963" style="border-left: 5px solid #2087ED;">
+        <input type="hidden" id="index" name="index" value="3">
+        <div class="guide-card__text guide-card__text__progress guide-card--study-plan">
+            <span class="guide-card__kind">
+                Trilha de estudo
+            </span>
+
+            <span class="guide-card__name">EPT DS 3ª Série | Programação Mobile</span>
+
+        </div>
+        <div class="guide-card__progress">
+            <div class="guide-card__description">
+                
+                        <span class="guide-card__fraction">
+                            2/14
+                        </span>
+                    <span class="guide-card__label">unidades finalizadas</span>
+                
+
+                
+            </div>
+        </div>
+    </a>
+</li>
+                
+            </ul>
+
+            
+                
+                
+                
+                    
+                    
+
+
+
+
+
+<a class="seeMore-text" href="/learning-guide/company">
+    Ver todas as trilhas de estudo
+</a>
+                
+            
+        </div>
+    </section>
+
+            </div>
+        
+    
+</main>
+
+
+
+
+
+
+
+
+
+	
+		
+			
+
+
+
+
+<footer class="footer container">
+    <a href="/dashboard" class="footer-logo">
+        <img class="header-logo header-logo-alurastart" src="/assets/images/logos/logo-start-by-alura.png"
+             alt="Logo Start by Alura">
+    </a>
+    <section role="presentation" class="footer-footerGroup">
+        
+            <div class="footer-links">
+                <h2 class="footer-links-title">Acompanhe-nos</h2>
+                <ul role="presentation" class="footer-socialMedia">
+                    
+                        <li class="footer-socialMedia-item">
+                            <a class="footer-socialMedia-item-link" href="https://www.youtube.com/user/aluracursosonline"
+                               target="_blank"
+                               title="Youtube da Alura">
+                                <svg class="footer-socialMedia-item-icon footer-socialMedia-list-item-youtube">
+                                    <use xlink:href="/assets/images/newUI/footer/icons-redes.svg#icon-footer-youtube"/>
+                                </svg>
+                            </a>
+                        </li>
+                    
+                        <li class="footer-socialMedia-item">
+                            <a class="footer-socialMedia-item-link" href="https://twitter.com/aluraonline"
+                               target="_blank"
+                               title="Twitter da Alura">
+                                <svg class="footer-socialMedia-item-icon footer-socialMedia-list-item-twitter">
+                                    <use xlink:href="/assets/images/newUI/footer/icons-redes.svg#icon-footer-twitter"/>
+                                </svg>
+                            </a>
+                        </li>
+                    
+                        <li class="footer-socialMedia-item">
+                            <a class="footer-socialMedia-item-link" href="https://instagram.com/aluraonline"
+                               target="_blank"
+                               title="Instagram da Alura">
+                                <svg class="footer-socialMedia-item-icon footer-socialMedia-list-item-instagram">
+                                    <use xlink:href="/assets/images/newUI/footer/icons-redes.svg#icon-footer-instagram"/>
+                                </svg>
+                            </a>
+                        </li>
+                    
+                        <li class="footer-socialMedia-item">
+                            <a class="footer-socialMedia-item-link" href="https://www.tiktok.com/@aluraonline"
+                               target="_blank"
+                               title="Tiktok da Alura">
+                                <svg class="footer-socialMedia-item-icon footer-socialMedia-list-item-tiktok">
+                                    <use xlink:href="/assets/images/newUI/footer/icons-redes.svg#icon-footer-tiktok"/>
+                                </svg>
+                            </a>
+                        </li>
+                    
+                </ul>
+            </div>
+        
+        
+            <div class="footer-links">
+                <h2 class="footer-links-title">Apps</h2>
+                <ul class="footer-hotLinks-menu footer-hotLinks-mobile">
+                    
+                        <li class="footer-hotLinks-item">
+                            <a class="footer-hotLinks-item-link" href="https://play.google.com/store/apps/details?id=br.com.alura.mobi&hl=pt_BR"
+                               target="_blank"
+                               title="Google Play Store">
+                                <svg class="footer-hotLinks-item-icon footer-hotLinks-menu-item-mobile">
+                                    <use xlink:href="/assets/images/newUI/footer/icons-mobile.svg#icon-footer-googlePlay"/>
+                                </svg>
+                            </a>
+                        </li>
+                    
+                        <li class="footer-hotLinks-item">
+                            <a class="footer-hotLinks-item-link" href="https://itunes.apple.com/br/app/alura-cursos-online/id1225776635"
+                               target="_blank"
+                               title="Apple App Store">
+                                <svg class="footer-hotLinks-item-icon footer-hotLinks-menu-item-mobile">
+                                    <use xlink:href="/assets/images/newUI/footer/icons-mobile.svg#icon-footer-appStore"/>
+                                </svg>
+                            </a>
+                        </li>
+                    
+                </ul>
+            </div>
+        
+    </section>
+</footer>
+		
+		
+	
+
+
+
+
+
+
+
+
+
+
+	
+	<!-- Hotjar Tracking Code for https://cursos.alura.com.br and https://bootcamps.alura.com.br -->
+	<script>
+		(function(h,o,t,j,a,r){
+			h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+			h._hjSettings={hjid:6490207,hjsv:6};
+			a=o.getElementsByTagName('head')[0];
+			r=o.createElement('script');r.async=1;
+			r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+			a.appendChild(r);
+		})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+	</script>
+
+    
+
+
+<script src="/assets/external-libs/jquery/jquery-3.6.0.min.w.7c14a783df.js"></script>
+
+<script src="/assets/js/sectionMenu.w.b17e969593.js"></script>
+<script src="/assets/external-libs/buttonToggle.w.41524be9a8.js"></script>
+<script src="/assets/external-libs/caret.w.2e5c0c9d44.js" async></script>
+<script src="/assets/external-libs/purify.min.w.9cae9260da.js" ></script>
+
+<script src="/assets/external-libs/highlightjs/highlight.min.w.9b99da81ed.js" async></script>
+<script src="/assets/external-libs/highlightjs/highlight.init.w.5870d8cf46.js" async></script>
+
+<script src="/assets/js/dashboard/search.w.58a77490c6.js" async></script>
+<script src="/assets/js/search/QuerySuggestion.w.293d406034.js" async></script>
+<script src="/assets/js/dashboard/submitChatbotSearch.w.01a619f9aa.js" async></script>
+<script src="/assets/js/dashboard/news.w.ace9a4daff.js" async></script>
+<script src="/assets/js/dashboard/categoryExplorerCarousel.w.ba63268df6.js" async></script>
+
+<script src="/assets/js/points/populateGrid.w.32d140c07b.js"></script>
+<script src="/assets/js/points/makeHeaderPoints.w.d22d76f099.js"></script>
+<script src="/assets/js/block/preventsMultipleInteractions.w.19502e1912.js" async></script>
+<script src="/assets/js/block/assessment.w.98e894ccb6.js" async></script>
+<script src="/assets/js/block/login-form.w.55417db416.js" async></script>
+<script src="/assets/js/block/menuToggle.w.306a030c1d.js" async></script>
+<script src="/assets/js/block/headerToggle.w.a40dc59b4d.js" async></script>
+<script src="/assets/js/block/emptyMenuVerifier.w.eb84313cfa.js"></script>
+
+<script src="/assets/js/header/responsiveHeaderToggle.w.64352e9e74.js" async></script>
+
+<script src="/assets/js/Bookmark.w.dffe19dc11.js"></script>
+
+<script src="/assets/js/gnarus/classPage/aria.w.f116e8f245.js" async></script>
+
+<script src="/assets/js/extracontent/ExtraContentProgressRequest.w.d0c0e896eb.js"></script>
+
+
+
+
+	
+	
+		
+	
+
+
+<script src="/assets/js/block/audioPlayer.w.16c29a3cb1.js"></script>
+<script src="/assets/js/blackFriday/Countdown.w.37347565b8.js"></script>
+<script src="/assets/js/LearningContentMarkWatched.w.c9d0d69d37.js"></script>
+<script src="/assets/js/unloggedHome/licenseAgreement.w.12e6309bea.js"></script>
+
+<script>
+	
+	
+	let bookmark = new Bookmark();
+	bookmark.setMessages("Seguir trilha","Deixar de seguir trilha");
+	bookmark.refreshListener();
+</script>
+
+
+
+
+
+
+	<script src="/assets/js/newUI/dropdown.w.7e97d66361.js"></script>
+	<script src="/assets/js/newUI/accordion.w.5a597b91d5.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/assets/css/uploadImages/uploadImages.w.9ff7d1f962.css" rel="stylesheet" />
+
+<script src="/assets/js/uploadImages/UploadProgress.w.9715e5849f.js"></script>
+<script src="/assets/js/uploadImages/ImagesClient.w.0b2a623b38.js"></script>
+<script src="/assets/js/uploadDocuments/CourseDocumentsApiClient.w.d8e3dc473c.js"></script>
+
+<script src="/assets/external-libs/marked.min.w.c69e14e81a.js"></script>
+
+<script src="/assets/js/forum/enableForumButtons.w.b6a18ff52b.js"></script>
+
+<script>
+    var IMAGE_UPLOAD_MESSAGES = {
+        imageUploadMessageInit: `Anexe arquivos arrastando e soltando`,
+        imageUploadMessageDragEnter: `Solte a imagem para fazer o upload`,
+        imageUploadMessageDrop: `Enviando a imagem #images_names#`,
+        imageUploadMessageProgress: `Enviando o arquivo #images_names#: #progress#%`,
+        imageUploadMessageUploaded: `Arquivo enviado com sucesso!`,
+        imageUploadMessageSizeUnits: `MB`,
+        imageUploadMessageTag: `![Insira aqui a descrição dessa imagem para ajudar na acessibilidade](#url#) `
+    }
+</script>
+
+
+    
+        <link href="/assets/external-libs/hackeditor/hackeditor.min.w.fcf421a7b6.css" rel="stylesheet" />
+        <link href="/assets/external-libs/hackeditor/hackeditor.custom.w.44b3bf3fa3.css" rel="stylesheet" />
+        <link href="/assets/external-libs/highlightjs/github.w.7eada5b91a.css" rel="stylesheet" />
+
+        <script src="/assets/external-libs/hackeditor/hackeditor.min.w.fdc227ab0b.js"></script>
+        <script src="/assets/external-libs/hackeditor/hackeditor.custom.w.a30c4f5286.js"></script>
+        <script src="/assets/external-libs/highlightjs/highlight.min.w.9b99da81ed.js"></script>
+        <script>
+            const setupEditorsOnPage = (e) => {
+                const toolbarActionsHints = {
+                    toggleHeadingActionHint: `Título`,
+                    toggleBoldActionHint: `Negrito`,
+                    toggleItalicActionHint: `Itálico`,
+                    toggleOrderedListActionHint: `Lista ordenada`,
+                    toggleUnorderedListActionHint: `Lista não ordenada`,
+                    togglePreviewActionHint: `Pré-visualizar`,
+                    drawTableActionHint: `Inserir Tabela`,
+                    drawCodeActionHint: `Inserir bloco de código`,
+                    drawLinkActionHint: `Inserir Link`,
+                    drawImageActionHint: `Inserir Imagem`,
+                    drawUploadedImageActionHint: `Upload de imagem`,
+                    drawUploadedDocActionHint: `Upload de documento`,
+                    undoActionHint: `Desfazer`,
+                    redoActionHint: `Refazer`
+                }
+
+                const imageUploadErrors = {
+                    imageErrorLimit: `Você só pode inserir 5 imagens por vez!`,
+                    imageFileNotAllowed: `O arquivo filename não é permitido, apenas imagens!`,
+                    imageVeryLarge: `O arquivo filename é maior que o limite de 2 MB.`,
+                    imageMaliciousFile: `O arquivo filename contém conteúdo malicioso.`
+                }
+
+                const docUploadErrors = {
+                    docErrorLimit: `Você só pode inserir 5 documentos por vez!`,
+                    docFileNotAllowed: `O arquivo filename não é permitido!`,
+                    docVeryLarge: `O arquivo filename é maior que o limite de 5 MB.`,
+                    docMaliciousFile: `O arquivo filename contém conteúdo malicioso.`
+                }
+
+                window.editors = window.editors || [];
+
+                const editorsElements = window.editors.map(ed => ed.element.id);
+
+                const textAreaEditors = Array.from(document.querySelectorAll('.hackeditor > textarea'));
+                textAreaEditors
+                    .filter(e => e.closest('.taskForms') == null)
+                    .filter(e => editorsElements.length == 0 ? true : !editorsElements.includes(e.id))
+                    .forEach(editorTextArea => {
+                        const editor = setupHackEditor({
+                            editorOptions: {
+                                element: editorTextArea,
+                                initialValue: editorTextArea.value || editorTextArea.innerText,
+                                syncPreview: true,
+                                maxHeight: "300px",
+                                toolbarActionsHints,
+                                // Image options
+                                imageUploadMessages: IMAGE_UPLOAD_MESSAGES,
+                                imageUploadErrors,
+                                imageUploadClient: new ImagesClient(
+                                    'https://www.gnarususercontent.com.br/images',
+                                    'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MTY0NDM0MzQsImtleSI6IjdiMjcwMTliLWRlNDgtNGQyZi1iOTYyLTFkOWYyMzcyZjliNyJ9.ZBnDO5eAPNeO8zVrIZiYM0RiHiFkaQMkGR3jHKyltD0',
+                                    1,
+                                    1151452
+                                ),
+                                allowImageUpload: editorTextArea.dataset.allowImageUpload,
+                                // Document options
+                                docUploadErrors,
+                                docUploadClient: new CourseDocumentsApiClient(
+                                    'https://www.gnarususercontent.com.br/documents',
+                                    'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2MTY0NDM0MzQsImtleSI6IjdiMjcwMTliLWRlNDgtNGQyZi1iOTYyLTFkOWYyMzcyZjliNyJ9.ZBnDO5eAPNeO8zVrIZiYM0RiHiFkaQMkGR3jHKyltD0',
+                                    1,
+                                    1151452
+                                ),
+                                allowDocUpload: editorTextArea.dataset.allowDocUpload
+                            },
+                            extensions: {
+                                DOMPurify,
+                                marked,
+                                hljs
+                            }
+                        });
+
+                        window.editors.push({
+                            instance: editor,
+                            element: editorTextArea,
+                        });
+
+                        enableForumButtons();
+                });
+            }
+
+            window.addEventListener('DOMContentLoaded', setupEditorsOnPage);
+            document.addEventListener('change', setupEditorsOnPage);
+            window.setupEditorsOnPage = setupEditorsOnPage;
+        </script>
+    
+    
+
+
+
+    <script src="/assets/js/dashboard/companyBillboardAlert.w.c46e10d853.js"></script>
+    <script type="text/javascript" src="//static.criteo.net/js/ld/ld.js" async></script>
+
+    
+
+<script src="/assets/js/IframeChecker.w.0a974f5824.js"></script>
+<script src="/assets/js/gnarus/search/SendDataFromSearchToGA.w.7ba33b26a8.js"></script>
+<script>
+	new SendDataFromSearchToGA();
+</script>
+</body>
+</html>
